@@ -25,16 +25,20 @@ html {
 }
 
 @font-face {
-    font-family: 'PlayfairDisplay-Regular';
-    src: url('./fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+    font-family: 'Metropolis-Bold';
+    src: url('./fonts/Metropolis-Bold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 
+html {
+    color: #f1f3f4;
+}
+
 
 body {
-    font-family: 'Metropolis-Regular', 'Metropolis-Medium', 'Metropolis-Thin' , 'PlayfairDisplay-Regular' , -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
+    font-family: 'Metropolis-Regular', 'Metropolis-Medium', 'Metropolis-Bold',  'Metropolis-Thin' , 'PlayfairDisplay-Regular' , -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', 
     sans-serif;
     margin: 0;
 }
@@ -46,6 +50,18 @@ body {
     justify-content: center;
 }
 
+.container h1 {
+    font-family: 'Metropolis-Medium';
+    color: #222629;
+}
+
+.header2 {
+    color: #394045;
+    margin-top: -1.3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 
 .gif {
     display: flex;
@@ -53,20 +69,34 @@ body {
 }
 
 .gif img {
-    padding-top: 2rem;
-    width: 30%;
-    padding-bottom: 2.5rem;
+    border: 5px solid white;
+    /*padding-top: 2rem; */
+    width: 50%;
+    /* padding-bottom: 2.5rem; */
+}
+
+.spacer {
+    padding-bottom: 2rem;
 }
 
 .content p, h3 {
     font-family: 'Metropolis-Regular';
     text-align: left;
-    margin-left:2rem;
-    margin-right:2rem;
+    margin-left:2.5rem;
+    margin-right:2.5rem;
+}
+
+.content p {
+    color: #394045;
+}
+
+.h1 {
+    font-family: 'Metropolis-Medium' ;
 }
 
 .content h1, h3 {
-    font-family: ;
+    font-family: 'Metropolis-Medium' ;
+    color: #222629;
 }
 
 .content p {
