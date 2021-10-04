@@ -43,6 +43,12 @@ body {
     margin: 0;
 }
 
+.container1 {
+    border-left: 2rem solid #f9f9f8;
+    border-right: 2rem solid #f9f9f8;
+
+}
+
 
 .container {
     padding-top: 2rem;
@@ -69,10 +75,11 @@ body {
 }
 
 .gif img {
-    border: 5px solid white;
+    border: 3px solid slategrey;
     /*padding-top: 2rem; */
     width: 50%;
     /* padding-bottom: 2.5rem; */
+    box-shadow:1px 1px 5px 1px lightslategray; 
 }
 
 .spacer {
@@ -84,6 +91,10 @@ body {
     text-align: left;
     margin-left:2.5rem;
     margin-right:2.5rem;
+}
+
+.content h3 {
+    text-decoration: underline 3px slategrey;
 }
 
 .content p {
@@ -102,4 +113,94 @@ body {
 .content p {
     line-height: 1.5rem;
     padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+
+    .content p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .content h3 {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .gif img {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 650px) {
+    .content p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .gif img {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .container h1 {
+        font-size: 2.3em;
+    }
+
+    .header2 {
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .content h3 {
+        font-size: 1.7rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .container h1 {
+        font-size: 3rem;
+    }
+
+    .header2 {
+        font-size: 1.3rem;
+    }
+
+    .spacer {
+        padding-bottom: 2.5rem;
+    }
+
+
+    .content p {
+        font-size: 1.6rem;
+        line-height: 2.1rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .content h3 {
+        font-size: 1.9rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
 }
