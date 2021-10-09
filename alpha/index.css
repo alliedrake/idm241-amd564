@@ -65,7 +65,7 @@ body {
     color: #394045;
     margin-top: -1.3rem;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -114,6 +114,58 @@ body {
     line-height: 1.5rem;
     padding-bottom: 1rem;
 }
+
+/* Animation CSS */
+
+#examples {
+    color: #000000;
+  }
+  
+  #examples .example {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 0 45px;
+  }
+  #examples .example .hover {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+  }
+
+  .example:hover {
+        font-style: italic;
+        transition-duration: 0.3s;
+  }
+
+  #examples .example .hover:before, #examples .example .hover:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 4px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.3s;
+    opacity: 0;
+    background-color: #000000;
+  }
+  
+  #examples .example .hover.hover-1:before, #examples .example .hover.hover-1:after {
+    left: 0;
+  }
+  
+  #examples .example:hover {
+    cursor: pointer;
+  }
+  
+  #examples .example:hover .hover:before, #examples .example:hover .hover:after {
+    width: 100%;
+    opacity: 1;
+  }
 
 @media screen and (min-width: 400px) {
 
