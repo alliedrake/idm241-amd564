@@ -119,14 +119,17 @@ body {
 
 #examples {
     color: #000000;
+    display: flex;
+    justify-content: center;
+
   }
+
   
   #examples .example {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+    display: inline-block;
     margin: 0 0 45px;
   }
+  
   #examples .example .hover {
     font-size: 36px;
     text-align: center;
