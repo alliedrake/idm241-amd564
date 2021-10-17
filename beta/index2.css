@@ -1,3 +1,48 @@
-.body {
-    background-color:  #e7edf5;
+.html {
+    color:  #e7edf5;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./fonts/Montserrat-Medium.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./fonts/Montserrat-Regular.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container1 {
+    border-left: 2rem solid #e7edf5;
+    border-right: 2rem solid #e7edf5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e7edf5;
+  padding-top: 2rem;
+}
+
+.header h1, .header2 h2, .container h3 {
+    font-family: 'Montserrat-Medium';
+}
+
+.container p {
+font-family: 'Montserrat-Regular';
+}
+
+.container p {
+    line-height: 1.6rem;
+}
+
+.img img {
+    width: 100%;
+    
 }
