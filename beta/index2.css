@@ -28,11 +28,19 @@
   flex-direction: column;
   background-color: #333333;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .header h1, .header2 h2, .container h3 {
     font-family: 'Montserrat-Medium';
-    color: #f9f9f9;
+}
+
+.header h1 {
+    color: #A9EAA9;
+}
+
+.header2 h2 {
+    color: #CEF3CE;
 }
 
 
@@ -52,24 +60,22 @@ color: #f9f9f9;
     
 }
 
-
 .text h2 {
     font-family: 'Montserrat-Medium';
     font-size: 1.5rem;
     text-decoration: underline;
-    color: #f9f9f9;
+    color: #A9EAA9;
 }
 
 .text li, .text p {
     font-family: 'Montserrat-Regular';
-    line-height: 1.5rem;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
     color: #f9f9f9;
 }
 
-.text h3 {
-    font-size: 1.2rem;
-    margin-bottom:-5px;
-    color: #f9f9f9;
+.text p {
+    padding-bottom: 1rem;
 }
 
 .text {
@@ -78,6 +84,11 @@ color: #f9f9f9;
     display: flex; 
     justify-content: center;
     flex-direction: column;
+}
+
+.text h3 {
+    color:#CEF3CE;
+        margin-bottom: -0.8px;
 }
 
 @media screen and (max-width: 500px) {
@@ -96,10 +107,12 @@ color: #f9f9f9;
 
     .text h3 {
         font-size: 0.9rem;
+        margin-bottom: -3px;
     }
 
     .text li {
         font-size: 0.8rem;
+        line-height: 1.4rem;
     }
 
     .text p {
@@ -123,6 +136,7 @@ color: #f9f9f9;
     }
 }
 
+
 @media screen and (min-width: 700px) {
 
     .header h1{
@@ -131,6 +145,10 @@ color: #f9f9f9;
 
     .header2 h2 {
         font-size: 1.5rem;
+    }
+
+    .text h3 {
+        margin-bottom: -1px;
     }
 }
 
@@ -150,11 +168,11 @@ color: #f9f9f9;
 
     .text li, .text p {
         font-size: 1.4rem;
-        line-height: 1.8rem;
+        line-height: 1.9rem;
     }
 
     .text h3 {
-        font-size: 1.5;
+        font-size: 1.5rem;
     }
 
     .img img {
