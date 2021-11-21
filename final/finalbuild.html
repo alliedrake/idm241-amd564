@@ -9,6 +9,10 @@
     </head>
 
     <body> 
+        <!--Preload-->
+        <audio id="openButton" src="sounds/open.mp3" preload="auto"></audio>
+        <audio id="buttonClose" src="sounds/close.mp3" preload="auto"></audio>
+
 
     <div class='container1'>
 
@@ -26,13 +30,13 @@
 
     <div class="content"> 
 
-        <div class="share-btn">
+        <div class="share-btn" onclick="audio.play();">
             <span class="cta">Share</span>
-            <div class="close"><i class="fa fa-close"style="font-size:24px"></i></div>
+            <div class="close"><i class="fa fa-close" onclick="audio1.play();"cstyle="font-size:24px"></i></div>
             <ul class="social">
-                <a href="https://www.facebook.com/" target="_blank"><li>FACEBOOK</li></a>
-                <li>TWITTER</li>
-              <li>LINKEDIN</li>
+                <li><a href="https://www.facebook.com/" target="_blank" style="color: #3b5998;">FACEBOOK</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank" style="color: #08a0e9;">TWITTER</a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank" style="color: #0e76a8;">LINKEDIN</a></li>
             </ul>
           </div>
          
@@ -106,7 +110,7 @@
 
         <h2>Feedback</h2>
         <ul>
-            <li>Same as rules.</li>
+            <li>Same as rules except the sound preload</li>
         </ul>
 
 
@@ -126,6 +130,6 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script src="../beta/build.js"></script>
+      <script src="build.js"></script>
 </body>
     </html>
