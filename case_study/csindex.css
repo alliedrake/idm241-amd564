@@ -1,0 +1,144 @@
+.html {
+    margin-left: 1rem;
+    margin-right: 1rem; 
+  }
+  
+  body {
+    font-family: 'Montserrat-Regular';
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+   
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./fonts/Montserrat-Medium.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./fonts/Montserrat-Regular.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  * {box-sizing: border-box;}
+
+
+  
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .container h2 {
+      padding-left: 1.5rem;
+  }
+
+  .title h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #A9EAA9;
+  }
+
+  .overview, .process {
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .overview p {
+      font-size: 1.1rem;
+      line-height: 1.9rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: #333333;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(167, 218, 192, 0.3);
+      border-radius: 5px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+  }
+
+  .container h1 {
+    font-family: 'Montserrat-Medium';
+    color: #A9EAA9;
+  }
+
+  .container h2 {
+    font-family: 'Montserrat-Medium';
+    color: #333333;
+  }
+
+  .context_and_challenge, .process {
+    padding-bottom: 0.5rem;
+  }
+
+  .background {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background-color: #ffffff;
+      box-shadow: 0 0 20px rgba(167, 218, 192, 0.3);
+      border-radius: 5px;
+  }
+
+
+  .background p, .problem p, .goals ul, .stdescription p, .addescription p, .acdescription p, .beta_project p {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      line-height: 1.9rem;
+      font-size: 1.1rem;
+  }
+
+  .problem, .goals {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(167, 218, 192, 0.3);
+    border-radius: 5px;
+  }
+
+.goals ul {
+  padding-left: 2.5rem;
+}
+
+.process h1 {
+  text-align: left;
+}
+
+.styletile img, .alpha_design img, .alpha_code img, .beta_project img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.styletile, .alpha_design, .alpha_code, .beta_project {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 1rem;
+  padding-top: 1rem; 
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(167, 218, 192, 0.3);
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.stdescription, .addescription, .acdescription, .bpdescription {
+  flex-direction: column;
+}
+  
